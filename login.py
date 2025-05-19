@@ -86,7 +86,7 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "E-mail"))
         self.label_3.setText(_translate("MainWindow", "Senha"))
         self.iniciarButton_2.setText(_translate("MainWindow", "Entrar"))
-import headerEntrar_rc
+
 
 
 if __name__ == "__main__":

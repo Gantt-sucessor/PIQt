@@ -36,6 +36,9 @@ background-image: url(:/cardapioLogin/menu.png);</string>
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap>imagens/menu.png</pixmap>
+    </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
@@ -54,7 +57,7 @@ background-image: url(:/cardapioLogin/menu.png);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/CARDÁPIO.png</pixmap>
+     <pixmap>imagens/CARDÁPIO.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
@@ -73,7 +76,7 @@ background-image: url(:/cardapioLogin/menu.png);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/PURO SABOR.png</pixmap>
+     <pixmap>imagens/PURO SABOR.png</pixmap>
     </property>
    </widget>
   </widget>
@@ -89,8 +92,6 @@ background-image: url(:/cardapioLogin/menu.png);</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources>
-  <include location="../PuroSabor/cadapioLogin.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
