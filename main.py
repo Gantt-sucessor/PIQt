@@ -18,7 +18,8 @@ class InicioDesktop(QMainWindow):
         self.close()
 
 usuarios = {
-    "jogoperdi@gmail.com": "123"
+    "jogoperdi@gmail.com": "123",
+    "evandro@gmail.com": "321"
 }
 
 
