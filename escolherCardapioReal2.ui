@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1920</width>
-    <height>1092</height>
+    <height>1097</height>
    </rect>
   </property>
   <property name="cursor">
@@ -123,14 +123,14 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>480</y>
       <width>511</width>
       <height>521</height>
      </rect>
     </property>
     <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string/>
@@ -180,9 +180,6 @@
     <property name="text">
      <string>PushButton</string>
     </property>
-    <property name="checkable">
-     <bool>true</bool>
-    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
@@ -198,9 +195,6 @@
     </property>
     <property name="text">
      <string>PushButton</string>
-    </property>
-    <property name="checkable">
-     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -218,9 +212,6 @@
     <property name="text">
      <string>PushButton</string>
     </property>
-    <property name="checkable">
-     <bool>true</bool>
-    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
@@ -236,9 +227,6 @@
     </property>
     <property name="text">
      <string>PushButton</string>
-    </property>
-    <property name="checkable">
-     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_10">
@@ -279,9 +267,6 @@
     <property name="text">
      <string>PushButton</string>
     </property>
-    <property name="checkable">
-     <bool>true</bool>
-    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
@@ -297,9 +282,6 @@
     </property>
     <property name="text">
      <string>PushButton</string>
-    </property>
-    <property name="checkable">
-     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_7">
@@ -317,9 +299,6 @@
     <property name="text">
      <string>PushButton</string>
     </property>
-    <property name="checkable">
-     <bool>true</bool>
-    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_8">
     <property name="geometry">
@@ -336,21 +315,18 @@
     <property name="text">
      <string>PushButton</string>
     </property>
-    <property name="checkable">
-     <bool>true</bool>
-    </property>
    </widget>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
       <x>830</x>
       <y>470</y>
-      <width>751</width>
+      <width>761</width>
       <height>251</height>
      </rect>
     </property>
     <property name="cursor">
-     <cursorShape>ArrowCursor</cursorShape>
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="mouseTracking">
      <bool>false</bool>
@@ -365,9 +341,9 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>820</x>
+      <x>830</x>
       <y>780</y>
-      <width>741</width>
+      <width>771</width>
       <height>221</height>
      </rect>
     </property>
@@ -379,6 +355,22 @@
     </property>
     <property name="pixmap">
      <pixmap>imagens/TESTE (1).png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>500</y>
+      <width>451</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
     </property>
    </widget>
    <zorder>pushButton_8</zorder>
@@ -394,11 +386,12 @@
    <zorder>label_3</zorder>
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
-   <zorder>label_6</zorder>
    <zorder>label_7</zorder>
    <zorder>label_10</zorder>
    <zorder>label_8</zorder>
    <zorder>label_9</zorder>
+   <zorder>pushButton_9</zorder>
+   <zorder>label_6</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

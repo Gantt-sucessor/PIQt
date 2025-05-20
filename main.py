@@ -16,7 +16,7 @@ class InicioDesktop(QMainWindow):
         uic.loadUi("inicioDesktop.ui", self)
 
         # Espera 3 segundos (3000ms) e chama a função para abrir a próxima tela
-        QTimer.singleShot(1000, self.abrir_tela_principal)
+        QTimer.singleShot(90, self.abrir_tela_principal)
 
     def abrir_tela_principal(self):
         self.tela_principal = TelaPrincipal()
@@ -48,17 +48,37 @@ class TelaPrincipal(QMainWindow):
 class EscolherCardapio(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi("escolherCardapioReal.ui", self)
+        uic.loadUi("escolherCardapioReal2.ui", self)
         
-        
+        self.label_2.setAttribute(Qt.WA_TransparentForMouseEvents, True)
+        self.label_6.setAttribute(Qt.WA_TransparentForMouseEvents, True)
         self.label_8.setAttribute(Qt.WA_TransparentForMouseEvents, True)
         self.label_9.setAttribute(Qt.WA_TransparentForMouseEvents, True)
         
+        
         self.pushButton.clicked.connect(self.mostrar_pop_up)
-
+        self.pushButton_9.clicked.connect(self.abrirPratoDoDia)
+        
+        
     def mostrar_pop_up(self):
         QMessageBox.information(self, "Sucesso", "Ação realizada com sucesso!")
         
+    def abrirPratoDoDia(self):
+        self.prato_do_dia = PratoDoDia()
+        self.prato_do_dia.show()
+        self.close()
+        
+class PratoDoDia(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        uic.loadUi("pageProdutoReal.ui", self)
+        
+        
+        self.pushButton_20.clicked.connect(self.voltar)
+
+    def voltar(self):
+        self.tela_anterior.show()
+        self.close()
         
 # Inicialização da aplicação
 if __name__ == "__main__":
